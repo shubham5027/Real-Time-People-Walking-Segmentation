@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bagpack', 'person']
+
+roboflow:
+  workspace: yara-hashesh-9u8ie
+  project: people-syyck
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/yara-hashesh-9u8ie/people-syyck/dataset/1
